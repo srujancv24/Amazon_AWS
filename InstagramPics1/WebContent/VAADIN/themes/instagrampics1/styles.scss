@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "instagrampics1.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in instagrampics1.scss */
+.instagrampics1 {
+  @include addons;
+  @include instagrampics1;
+}
